@@ -24,9 +24,9 @@ function NavBar() {
     <Navbar className="w-75 rounded-bottom-1" bg={navbarBgColor} variant={theme} data-bs-theme={theme}>
       <Container>
         <Nav className="me-auto justify-content-start d-flex">
-          <Nav.Link href="#home">Home</Nav.Link>
-          <Nav.Link href="#features">About Me</Nav.Link>
-          <Nav.Link href="#pricing">Projects</Nav.Link>
+          <Nav.Link href="/">Home</Nav.Link>
+          <Nav.Link href="features">About Me</Nav.Link>
+          <Nav.Link href="pricing">Projects</Nav.Link>
         </Nav>
         <Form>
           <Form.Check

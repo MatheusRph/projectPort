@@ -3,6 +3,7 @@ import "./globals.css";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import BoostrapClient from "../../components/BoostrapClient";
 import ThemeProvider from "../../components/ThemProvider";
+import NavBar from "../../components/NavBar";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -24,6 +25,9 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={`${geistSans.variable} ${geistMono.variable} justify-content-center`} data-bs-theme="dark">
       <ThemeProvider>
+      <div className="w-100">
+        <NavBar></NavBar>
+      </div>
           {children}
         </ThemeProvider>
       </body>
