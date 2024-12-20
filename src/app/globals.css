@@ -64,3 +64,16 @@ div {
   font-size: 16px;
   line-height: 1.5;
 }
+
+.textbutton{
+  font-family: "IBM Plex Mono", serif;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 20px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
