@@ -105,5 +105,19 @@ div {
     height: auto;
   }
 
+  .childmain .container{
+    align-items: center;
+    text-align: center;
+  }
 
+  .title{
+    width: 100%;
+    text-align: center;
+    justify-content: center !important;
+    margin-top: 4.5%;
+    font-size: 160%;
+    width: min-content;
+    white-space: nowrap;
+    align-items: center;
+  }
 }
