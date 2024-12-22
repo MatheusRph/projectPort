@@ -47,7 +47,7 @@ div {
 .main {
   display: flex;
   align-items: center;
-  height: 70vh;
+  height: auto;
 }
 
 .title {
@@ -77,3 +77,33 @@ div {
   justify-content: center;
 }
 
+.work {
+  width: 75% !important; /* Força a largura a ser aplicada */
+}
+
+@media only screen and (max-width: 800px) {
+  main {
+    flex-direction: column;
+    height: auto;
+  }
+  
+  .work {
+    display: flex;
+    width: 100% !important; /* Força a largura a ser aplicada */
+  }
+
+  .container{
+    height: fit-content;
+  }
+
+  .myimage{
+    height: 50%;
+  }
+
+  .childmain{
+    flex-direction: column-reverse;
+    height: auto;
+  }
+
+
+}

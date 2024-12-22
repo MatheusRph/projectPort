@@ -13,7 +13,7 @@ export default function Home() {
   return (
     <>
       <main className="main flex-column">
-        <Container className="justify-content-start w-75 mt-5">
+        <Container className="justify-content-start w-75 mt-5 childmain">
           <Container className="justify-content-start flex-column">
             <Title>Matheus Rodolpho</Title>
             <SubleTitle>Intro Text: Hello! My name is Matheus, 
@@ -25,23 +25,23 @@ export default function Home() {
               I also aspire to travel the world, gain experiences from 
               diverse cultures, and use these insights to create meaningful 
               changes and transform the world into a better place for everyone.</SubleTitle>
-            <Button variant="success click" className={`${styles.button} w-75`}><p className="textbutton">Let's get start</p></Button>
+            <Button variant="success click" className={`${styles.button}`}><p className="textbutton">Let's get start</p></Button>
           </Container>
           <MyImage></MyImage>
         </Container>
-        <Container className="justify-content-start w-75 mt-5 flex-column">
+        <Container className="justify-content-start work mt-5 flex-column">
           <Container className="justify-content-start">
             <SubleTitle>Worked with:</SubleTitle>
           </Container>
-          <Container className="justify-content-start">
-            <CardWork className="align-items-center d-flex">NextJs</CardWork>
-            <CardWork className="align-items-center d-flex">Boostrap</CardWork>
-            <CardWork className="align-items-center d-flex">JavaScript</CardWork>
-            <CardWork className="align-items-center d-flex">C++</CardWork>
-            <CardWork className="align-items-center d-flex">Azure</CardWork>
-            <CardWork className="align-items-center d-flex">Flutter</CardWork>
-            <CardWork className="align-items-center d-flex">Figma</CardWork>
-            <CardWork className="align-items-center d-flex">MySQL</CardWork>
+          <Container className="justify-content-start overflow-x-auto">
+            <CardWork className="align-items-center d-inline-block d-flex">NextJs</CardWork>
+            <CardWork className="align-items-center d-inline-block d-flex">Boostrap</CardWork>
+            <CardWork className="align-items-center d-inline-block d-flex">JavaScript</CardWork>
+            <CardWork className="align-items-center d-inline-block d-flex">C++</CardWork>
+            <CardWork className="align-items-center d-inline-block d-flex">Azure</CardWork>
+            <CardWork className="align-items-center d-inline-block d-flex">Flutter</CardWork>
+            <CardWork className="align-items-center d-inline-block d-flex">Figma</CardWork>
+            <CardWork className="align-items-center d-inline-block d-flex">MySQL</CardWork>
           </Container>
         </Container>
       </main>
