@@ -57,12 +57,26 @@ div {
   font-weight: bold;
 }
 
-.subletitle {
+.subtitle {
+  font-family: "IBM Plex Mono", serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 30px;
+}
+
+.text {
   font-family: "IBM Plex Mono", serif;
   font-weight: normal;
   font-style: normal;
   font-size: 16px;
   line-height: 1.5;
+}
+
+.navtext {
+  font-family: "IBM Plex Mono", serif;
+  font-style: normal;
+  font-size: smaller;
+  gap: 10px;
 }
 
 .textbutton{
@@ -81,7 +95,7 @@ div {
   width: 75% !important; /* Força a largura a ser aplicada */
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 992px) {
   main {
     flex-direction: column;
     height: auto;
@@ -118,6 +132,11 @@ div {
     font-size: 160%;
     width: min-content;
     white-space: nowrap;
+    align-items: center;
+  }
+
+  .navbar-collapse {
+    flex-direction: column !important;
     align-items: center;
   }
 }
