@@ -95,6 +95,11 @@ div {
   width: 75% !important; /* Força a largura a ser aplicada */
 }
 
+.project-card{
+  display: flex;
+  flex-direction: column;
+}
+
 @media only screen and (max-width: 992px) {
   main {
     flex-direction: column;
