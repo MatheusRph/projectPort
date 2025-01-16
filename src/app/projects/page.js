@@ -3,8 +3,6 @@
 import ".././globals.css";
 import React from "react";
 import { Container } from "react-bootstrap";
-import Button from 'react-bootstrap/Button';
-import Card from 'react-bootstrap/Card';
 import CardProject from "../../../components/CardProject/CardPoject";
 
 
@@ -13,7 +11,7 @@ export default function Projects() {
         <>
             <main className="main flex-column">
                 <Container className="justify-content-start w-75 mt-5 childmain gap-3">
-                    <CardProject title={'Airplan'} className='flex-column'>
+                    <CardProject title={'Airplan'} className='flex-column' href="/projects/airplane">
                         O projeto de avião foi feito com o intuito
                     </CardProject>
                     <CardProject title={'Next'} className='flex-column'>
