@@ -14,7 +14,7 @@ export default function Projects() {
                     <CardProject title={'Airplan'} className='flex-column' href="/projects/airplane">
                         O projeto de avião foi feito com o intuito
                     </CardProject>
-                    <CardProject title={'Next'} className='flex-column'>
+                    <CardProject title={'Next'} className='flex-column' href="/projects/next">
                         Um aplicativo streaming de games, porém é apenas um protótipo,
                         com um DB local, firebase, com player feito por biblioteca youtube_player.
                     </CardProject>

@@ -1,6 +1,5 @@
 .container {
     background-color: #212529;
-    min-height: 80vh;
-    max-height: max-content;
+    height: 80vh;
     width: 75%;
 }

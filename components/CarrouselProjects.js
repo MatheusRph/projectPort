@@ -33,7 +33,7 @@ export default function CarrouselProjects() {
   ];
   
 
-  const slidesY = [
+  const next = [
     { image: '/images/slide1_y.jpg', title: 'Slide Y1', description: 'Descrição do slide Y1' },
     { image: '/images/slide2_y.jpg', title: 'Slide Y2', description: 'Descrição do slide Y2' },
     // Outros slides do tipo Y
@@ -55,8 +55,8 @@ export default function CarrouselProjects() {
         // Condicional para escolher qual array de slides usar com base na informação
         if (informação === 'airplane') {
           selectedSlides = airplane;
-        } else if (informação === 'y') {
-          selectedSlides = slidesY;
+        } else if (informação === 'next') {
+          selectedSlides = next;
         } else {
           console.log("Informação não reconhecida, não há slides.");
         }
