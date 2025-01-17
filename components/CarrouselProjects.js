@@ -43,7 +43,7 @@ export default function CarrouselProjects() {
     // Verifique se está no lado do cliente para acessar window.location.href
     if (typeof window !== 'undefined') {
       const url = window.location.href; // Obtém a URL completa da página atual
-      const regex = /http:\/\/localhost:3000\/projects\/([^\/]+)/;
+      const regex = /http:\/\/localhost:8080\/projects\/([^\/]+)/;
       const match = url.match(regex);
 
       if (match) {
